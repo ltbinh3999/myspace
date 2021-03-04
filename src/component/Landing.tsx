@@ -37,7 +37,7 @@ export default function Landing({ roles, waitTime }: Props): ReactElement {
 
       setCurRole(newRole);
     }, 100);
-  }, [curRole]);
+  }, [curRole, roles, waitTime]);
 
   return (
     <div>

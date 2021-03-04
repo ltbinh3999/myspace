@@ -3,7 +3,6 @@ import Landing from "./Landing";
 import Navbar from "./Navbar";
 
 function App() {
-  const section = ["Landing"];
   return (
     <div className="App">
       <Landing
