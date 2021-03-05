@@ -1,14 +1,11 @@
 import React from "react";
-import Landing from "./Landing";
-import Navbar from "./Navbar";
+import Project from "./Project";
+
 
 function App() {
   return (
     <div className="App">
-      <Landing
-        waitTime={3}
-        roles={["Binh", "Software Engineer", "NLP Research"]}
-      />
+      <Project imgPath={['1.jpg','2.jpg','3.jpg']}/>
     </div>
   );
 }

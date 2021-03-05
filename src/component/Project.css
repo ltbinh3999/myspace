@@ -1,0 +1,16 @@
+:root {
+  --big: 25vw;
+  --small: 15vw;
+}
+.Item {
+  height: var(--big);
+  width: var(--big);
+}
+.SubItem {
+  height: var(--small);
+  width: var(--small);
+}
+
+.ImgButton {
+  height: 5vw;
+}
