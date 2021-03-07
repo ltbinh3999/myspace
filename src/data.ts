@@ -27,4 +27,26 @@ const skillData = [
      currently learning Rust to try out system programming.`,
   },
 ];
-export { skillData };
+const landingData = {
+  waitTime: 10,
+  roles: ["Binh", "Software Engineer", "NLP Research Assistant"],
+};
+const contactData = [
+  {
+    link: "mailto:ltbinh3999@gmail.com",
+    text: "Email",
+  },
+  {
+    link: "https://github.com/ltbinh3999",
+    text: "Github",
+  },
+  {
+    link: "https://www.linkedin.com/in/ltbinh3999/",
+    text: "Linkedin",
+  },
+  {
+    link: "https://github.com/ltbinh3999",
+    text: "Resume",
+  },
+];
+export { skillData, landingData, contactData };

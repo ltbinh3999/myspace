@@ -7,11 +7,9 @@ import iBack from "../img/back.png";
 import iNext from "../img/next.png";
 
 import "./Project.css";
-interface Props {
-  imgPath: string[];
-}
+interface Props {}
 
-export default function Project({ imgPath }: Props): ReactElement {
+export default function Project({}: Props): ReactElement {
   const [images, setImages] = useState([i1, i2, i3]);
   return (
     <div>
