@@ -1,11 +1,11 @@
 import React from "react";
 import Project from "./Project";
-
-
+import Skill from "./Skill";
+import { skillData } from "../data";
 function App() {
   return (
     <div className="App">
-      <Project imgPath={['1.jpg','2.jpg','3.jpg']}/>
+      <Skill data={skillData} />
     </div>
   );
 }

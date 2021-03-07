@@ -26,9 +26,9 @@ export default function Project({ imgPath }: Props): ReactElement {
           setImages(newImages);
         }}
       />
-      <img src={images[0]} className="SubItem"></img>
-      <img src={images[1]} className="Item"></img>
-      <img src={images[2]} className="SubItem"></img>
+      <img src={images[0]} className="SubItem" alt="left-item"></img>
+      <img src={images[1]} className="Item" alt="middle-item"></img>
+      <img src={images[2]} className="SubItem" alt="right-Item"></img>
       <input
         type="image"
         src={iNext}
