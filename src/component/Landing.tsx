@@ -40,10 +40,10 @@ export default function Landing({ roles, waitTime }: Props): ReactElement {
   }, [curRole, roles, waitTime]);
 
   return (
-    <div>
-      <div>I am</div>
+    <div style={{ width: "80%", textAlign: "center" }}>
+      <div>Hello, I am</div>
       <div>{curRole.name}|</div>
-      <div>Welcome</div>
+      <div>Welcome to my space</div>
     </div>
   );
 }

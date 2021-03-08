@@ -1,6 +1,11 @@
 :root {
   --big: 25vw;
   --small: 15vw;
+  scroll-behavior: smooth;
+}
+a {
+  color: black;
+  text-decoration: none;
 }
 .Item {
   height: var(--big);
@@ -12,5 +17,11 @@
 }
 
 .ImgButton {
-  height: 5vw;
+  height: 10vw;
+}
+.page {
+}
+body {
+  margin: 0;
+  font-size: 30px;
 }

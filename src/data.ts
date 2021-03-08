@@ -49,4 +49,5 @@ const contactData = [
     text: "Resume",
   },
 ];
+
 export { skillData, landingData, contactData };

@@ -12,9 +12,9 @@ export default function Contact({ data }: Props): ReactElement {
   return (
     <div>
       {data.map((x: any, i: number) => (
-        <div>
+        <div key={i}>
           <img src={imgs[i]} alt="" className="ImgButton" />
-          <a href={x.link} target="_blank">
+          <a href={x.link} target="_blank" rel="noopener noreferrer">
             {x.text}
           </a>
         </div>
